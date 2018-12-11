@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_hg_r0635" orientation_object="rp_wpn_fps_snp_tti_body_receiverlower" />
+	<graphics>
+		<object name="g_receiver_lower" enabled="true" />
+	</graphics>
+</dynamic_object>

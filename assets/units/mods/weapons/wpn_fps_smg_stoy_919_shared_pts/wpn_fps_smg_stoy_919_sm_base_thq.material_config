@@ -1,0 +1,5 @@
+<materials version="3" group="weapon_tti">
+	<material name="tti_receiver_lowerr" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_smg_stoy_919_shared_pts/mount_base_df" />
+	</material>
+</materials>

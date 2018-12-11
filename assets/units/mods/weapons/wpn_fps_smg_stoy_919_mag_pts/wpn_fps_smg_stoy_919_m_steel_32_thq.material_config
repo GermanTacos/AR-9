@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_tti">
+	<material name="tti_mag" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/steel_32_df" />
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/steel_32_nm" />
+	</material>
+	<material name="mtr_bullet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/steel_32_df" />
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/steel_32_nm" />
+    </material>
+</materials>
