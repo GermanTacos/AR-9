@@ -25,8 +25,7 @@
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_gb_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_block"       unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_gb_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 
-	<WeaponMod id="wpn_fps_smg_stoy_919_md_r0635"     based_on="wpn_fps_upg_ass_ns_battle"          type="barrel_ext"      unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_md_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<pcs/>
+	<WeaponMod id="wpn_fps_smg_stoy_919_md_r0635"     based_on="wpn_fps_upg_ass_ns_battle"          type="barrel_ext"      unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_md_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_lr_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="receiver_lower"  unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_lr_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
@@ -52,7 +51,7 @@
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_tr_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="trigger"         unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_tr_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
-	<WeaponMod id="wpn_fps_smg_stoy_919_hg_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_hg_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_smg_stoy_919_hg_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_hg_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
 		<stats concealment="-1"/>
 		<adds>
 			<value_node value="wpn_fps_smg_stoy_919_gt_r0635"/>
@@ -62,19 +61,16 @@
 			<value_node value="wpn_fps_smg_stoy_919_ba_m4_short"/>
 			<value_node value="wpn_fps_smg_stoy_919_ba_m733"/>-->
 		</forbids>
-		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_gt_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_tube"        unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_gt_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
-	<WeaponMod id="wpn_fps_smg_stoy_919_pg_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="grip"            unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_pg_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_smg_stoy_919_pg_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="grip"            unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_pg_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
 		<stats concealment="-1"/>
-		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_smg_stoy_919_st_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="stock"           unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_st_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_smg_stoy_919_st_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="stock"           unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_st_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
 		<stats concealment="-1"/>
-		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_stp_r0635"    based_on="wpn_fps_snp_tti_body_receiverlower" type="stock_part"      unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_stp_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -108,7 +104,7 @@
 	<Weapon unlock_level="0">
 		<weapon id="stoy_919" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="6" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_919">
 			<stats damage="60" spread="17" spread_moving="16" recoil="23" concealment="22" suppression="14"/>
-			<fire_mode_data fire_rate="0.08"/>
+			<fire_mode_data fire_rate="0.075"/>
 			<AMMO_PICKUP>
 					<value_node value="3"/>
 					<value_node value="9"/>
@@ -166,6 +162,7 @@
 				<value_node value="wpn_fps_smg_stoy_919_lr_r0635"/>
 				<value_node value="wpn_fps_smg_stoy_919_ur_r0635"/>
 				<value_node value="wpn_fps_smg_stoy_919_hg_r0635"/>
+				<value_node value="wpn_fps_smg_stoy_919_ro_r0635"/>
 				<value_node value="wpn_fps_smg_stoy_919_gb_r0635"/>
 				<value_node value="wpn_fps_smg_stoy_919_bo_r0635"/>
 				<value_node value="wpn_fps_smg_stoy_919_fo_r0635"/>
@@ -444,9 +441,9 @@
 	</AddFiles>
 	
 	<Hooks directory="hooks">
-		<!--<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
+		<!--<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>-->
 		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/> 
-		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>-->
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
 	</Hooks>
 	
 </table>
