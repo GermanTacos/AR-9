@@ -85,7 +85,9 @@
 	
 	<!-- MAGAZINE -->
 	
-	<WeaponMod id="wpn_fps_smg_stoy_919_m_steel_32"   based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/wpn_fps_smg_stoy_919_m_steel_32" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_smg_stoy_919_m_steel_32"   based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/wpn_fps_smg_stoy_919_m_steel_32" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<bullet_objects amount="0" prefix="g_bullet_" />
+	</WeaponMod>
 
 	<!-- SCOPE MOUNT -->
 	
