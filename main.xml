@@ -115,7 +115,7 @@
 			</categories>
 			<timers reload_not_empty="2.3" reload_empty="3.4" unequip="0.5" equip="0.7"/>
 			<sounds fire="r0635_fire_auto" fire_single="r0635_fire_single" fire_auto="r0635_fire_auto" use_fix="true"> 
-				<reload wp_tti_mag_in="wp_stoy_919_mag_in" wp_tti_mag_out="wp_stoy_919_mag_out" wp_tti_pull_lever="wp_stoy_919_pull_bolt" wp_tti_release_lever="wp_stoy_919_release_bolt" wp_tti_mag_contact="wp_stoy_919_mag_contact" wp_foley_generic_clip_in_connect="wp_stoy_919_mag_connect"/>
+				<reload wp_tti_mag_in="wp_stoy_919_mag_in" wp_tti_mag_out="wp_stoy_919_mag_out" wp_tti_pull_lever="wp_stoy_919_pull_bolt" wp_tti_release_lever="wp_stoy_919_release_bolt" wp_tti_mag_contact="wp_stoy_919_mag_contact"/>
 			</sounds>
 			<animations reload_name_id="tti" equip_id="equip_flint" recoil_steelsight="true"/>
 		</weapon>
@@ -223,9 +223,8 @@
 	
 	
 	<Sounds directory="assets\sounds">
-		<sound id="r0635_fire_single" path="r0635_fire_single.ogg" prefix="regular"/>
+		<sound id="r0635_fire_single" path="r0635_fire_auto.ogg" prefix="regular"/>
 		<sound id="r0635_fire_auto" 	 path="r0635_fire_auto.ogg" prefix="regular"/>
-		<sound id="r0635_fire_single" path="r0635_fire_pr.ogg" prefix="regular_b"/>
 		<sound id="r0635_fire_single" path="r0635_fire_single.ogg" prefix="suppressed_a"/>
 		<sound id="r0635_fire_single" path="r0635_fire_single.ogg" prefix="suppressed_b"/>
 		<sound id="r0635_fire_single" path="r0635_fire_single.ogg" prefix="suppressed_c"/>
