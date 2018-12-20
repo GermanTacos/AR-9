@@ -53,7 +53,7 @@ if ( self.stoy_919 ) then
 	self:SetupAttachmentPoint("stoy_919", {
 		name = "a_ns_ar6951", 
         base_a_obj = "a_ns", 
-        position = Vector3( 0, -8.65, -0.3 ),
+        position = Vector3( 0, 4.1, -0.3 ),
         rotation = Rotation( 0, 0, 0 )
 	})
 --- Sights ---
