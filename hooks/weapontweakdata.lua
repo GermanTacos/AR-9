@@ -44,28 +44,16 @@ if ( self.stoy_919 ) then
     })
 --- Gas Block ---
 	self:SetupAttachmentPoint("stoy_919", {
-		name = "a_gb_car15", 
+		name = "a_gb_ar15", 
         base_a_obj = "a_body", 
-        position = Vector3( 0, -12.75, 0 ),
+        position = Vector3( 0, 12.75, 0 ),
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- MDs ---
 	self:SetupAttachmentPoint("stoy_919", {
-		name = "a_ns_m4", 
+		name = "a_ns_ar6951", 
         base_a_obj = "a_ns", 
         position = Vector3( 0, -8.65, -0.3 ),
-        rotation = Rotation( 0, 0, 0 )
-	})
-	self:SetupAttachmentPoint("stoy_919", {
-		name = "a_ns_car15", 
-        base_a_obj = "a_ns", 
-        position = Vector3( 0, -18.75, -0.3 ),
-        rotation = Rotation( 0, 0, 0 )
-	})
-	self:SetupAttachmentPoint("stoy_919", {
-		name = "a_ns_m733", 
-        base_a_obj = "a_ns", 
-        position = Vector3( 0, -15.15, -0.3 ),
         rotation = Rotation( 0, 0, 0 )
 	})
 --- Sights ---

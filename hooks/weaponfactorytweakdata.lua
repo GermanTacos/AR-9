@@ -85,6 +85,7 @@ function WeaponFactoryTweakData:arpack_check_adds( mod_type, mod_woa )
 end
 
 --- Part Copy Base ---
+--[[
 function WeaponFactoryTweakData:ar15_copy_part( att_og, att_cp )
     if self.parts[att_og] then
         self.parts[att_cp] = deep_clone(self.parts[att_og])
@@ -95,7 +96,7 @@ function WeaponFactoryTweakData:ar15_copy_part( att_og, att_cp )
         self:ar15_write_error( "copy_part", "fti", "part", att_og )    
     end
 end
-
+]]
 --- ERROR Base ---
 function WeaponFactoryTweakData:ar15_write_error( func, cause, error_id, value  )
 	if func and cause and error_id then 
@@ -196,7 +197,28 @@ local nonacog_arsight = {
 --- Grips ---
 
 --- Compatibility Array Insertion ---
-
+if self.wpn_fps_ass_stoy_556 then
+	local all_ar15pts = {
+		"wpn_fps_ass_stoy_556_st_m4a1",
+		"wpn_fps_ass_stoy_556_st_m4",
+		"wpn_fps_ass_stoy_556_st_m607",
+		"wpn_fps_ass_stoy_556_st_m16a2",
+		"wpn_fps_ass_stoy_556_pg_m16a2",
+		"wpn_fps_ass_stoy_556_st_ar15",
+		"wpn_fps_ass_stoy_556_pg_ar15",
+		"wpn_fps_ass_stoy_556_hg_ar15",
+		"wpn_fps_ass_stoy_556_hg_m16a2",
+		"wpn_fps_ass_stoy_556_hg_m607",
+		"wpn_fps_ass_stoy_556_hg_m4a1"
+	}
+	self.parts.wpn_fps_ass_stoy_556_hg_m16a2.override.wpn_fps_smg_stoy_919_gb_r0635 = {a_obj="a_gb_ar15"}
+	self.parts.wpn_fps_ass_stoy_556_hg_ar15.override.wpn_fps_smg_stoy_919_gb_r0635 = {a_obj="a_gb_ar15"}
+	for id, part_id in pairs(all_ar15pts) do
+		table.insert(self.wpn_fps_smg_stoy_919.uses_parts, part_id)
+	end
+	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_ar6951.forbids, "wpn_fps_ass_stoy_556_hg_m16a2")
+	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_ar6951.forbids, "wpn_fps_ass_stoy_556_hg_ar15")
+end
 -----------------------------------
 ----<A><R><9> -CAFCW- <A><R><9>----
 -----------------------------------
@@ -243,7 +265,11 @@ end
 --	self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[gb_id] = {a_obj="a_gb_car15"}
 --end
 --MD override--
-
+for id, ext_id in pairs(all_ar9ext) do
+	if ext_id ~= "wpn_fps_smg_stoy_919_md_dummy" then
+		self.parts.wpn_fps_ass_stoy_556_ba_ar6951.override[ext_id] = {a_obj="a_ns_ar6951"}
+	end
+end
 --- Lowers/Carry Handle ---
 --O override--
 

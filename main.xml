@@ -89,6 +89,19 @@
 		<bullet_objects amount="0" prefix="g_bullet_" />
 	</WeaponMod>
 
+	<!-- AR6951 -->
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_ba_ar6951"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<override>
+			<wpn_fps_smg_stoy_919_md_dummy unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_md_r0635" a_obj="a_ns_ar6951"/>
+		</override>
+		<forbids>
+			<value_node value="wpn_fps_smg_stoy_919_md_r0635"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
+	
+	
 	<!-- SCOPE MOUNT -->
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_sm_base"     based_on="wpn_fps_snp_tti_body_receiverlower" type="scope_mount"      unit="units/mods/weapons/wpn_fps_smg_stoy_919_shared_pts/wpn_fps_smg_stoy_919_sm_base" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -177,6 +190,8 @@
 				<value_node value="wpn_fps_smg_stoy_919_m_steel_32"/>
 				
 				<value_node value="wpn_fps_smg_stoy_919_sm_base"/>
+				
+				<value_node value="wpn_fps_ass_stoy_556_ba_ar6951"/>
 				
 				<value_node value="wpn_fps_smg_stoy_919_so_pr"/>
 				
@@ -390,6 +405,18 @@
 		<unit            path="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/wpn_fps_smg_stoy_919_m_steel_32"/>
 		<material_config path="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/wpn_fps_smg_stoy_919_m_steel_32"/>
 		<material_config path="units/mods/weapons/wpn_fps_smg_stoy_919_mag_pts/wpn_fps_smg_stoy_919_m_steel_32_thq"/>
+		
+		<!-- AR6951 -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/ar6951_body_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/ar6951_body_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951"/>
+		<model           path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951"/>
+		<object          path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951"/>
+		<unit            path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951"/>
+		<material_config path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951"/>
+		<material_config path="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_ass_stoy_556_ba_ar6951_thq"/>
 		
 		<!-- SHARED PTS -->
 		

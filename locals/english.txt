@@ -49,6 +49,8 @@
 	 
 	"bm_wp_wpn_fps_smg_stoy_919_m_steel_32" : "Standard 32 Round Magazine",
 	
+	"bm_wp_wpn_fps_ass_stoy_556_ba_ar6951" 	: "AR6951 Barrel",
+	
 	"bm_wp_wpn_fps_smg_stoy_919_so_pr"   	: "Project Reality Sounds"
 	
 }
