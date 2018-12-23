@@ -200,7 +200,6 @@ local nonacog_arsight = {
 if self.wpn_fps_ass_stoy_556 then
 	local all_ar15pts = {
 		"wpn_fps_ass_stoy_556_st_m4a1",
-		"wpn_fps_ass_stoy_556_st_m4",
 		"wpn_fps_ass_stoy_556_st_m607",
 		"wpn_fps_ass_stoy_556_st_m16a2",
 		"wpn_fps_ass_stoy_556_pg_m16a2",
