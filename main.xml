@@ -56,11 +56,7 @@
 		<adds>
 			<value_node value="wpn_fps_smg_stoy_919_gt_r0635"/>
 		</adds>
-		<forbids>
-		<!--<value_node value="wpn_fps_smg_stoy_919_ba_cr0635"/>
-			<value_node value="wpn_fps_smg_stoy_919_ba_m4_short"/>
-			<value_node value="wpn_fps_smg_stoy_919_ba_m733"/>-->
-		</forbids>
+		<forbids/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_gt_r0635"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_tube"        unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_gt_r0635" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>

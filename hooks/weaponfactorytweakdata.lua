@@ -215,8 +215,8 @@ if self.wpn_fps_ass_stoy_556 then
 	for id, part_id in pairs(all_ar15pts) do
 		table.insert(self.wpn_fps_smg_stoy_919.uses_parts, part_id)
 	end
-	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_ar6951.forbids, "wpn_fps_ass_stoy_556_hg_m16a2")
-	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_ar6951.forbids, "wpn_fps_ass_stoy_556_hg_ar15")
+	table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_m16a2")
+	table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_ar15")
 end
 -----------------------------------
 ----<A><R><9> -CAFCW- <A><R><9>----
