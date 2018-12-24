@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_smg_stoy_919_ba_ar6951" orientation_object="rp_wpn_fps_snp_tti_b_standard" />
+	<graphics>
+		<object name="g_barrel" enabled="true" />
+	</graphics>
+</dynamic_object>

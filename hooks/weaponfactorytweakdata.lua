@@ -243,6 +243,10 @@ if BeardLib.Utils:FindMod("M82 Muzzle Brake") then
 	table.insert(all_ar9ext, "wpn_fps_upg_ns_aw50")
 end
 
+if BeardLib.Utils:FindMod("Thermal Scope") then
+	table.insert(all_ar9sight, "wpn_fps_upg_o_thersig")
+	table.insert(nonacog_arsight, "wpn_fps_upg_o_thersig")
+end
 
 --------------------------------------
 ----<A><R><9> -Override- <A><R><9>----
@@ -266,7 +270,7 @@ end
 --MD override--
 for id, ext_id in pairs(all_ar9ext) do
 	if ext_id ~= "wpn_fps_smg_stoy_919_md_dummy" then
-		self.parts.wpn_fps_ass_stoy_556_ba_ar6951.override[ext_id] = {a_obj="a_ns_ar6951"}
+		self.parts.wpn_fps_smg_stoy_919_ba_ar6951.override[ext_id] = {a_obj="a_ns_ar6951"}
 	end
 end
 --- Lowers/Carry Handle ---
