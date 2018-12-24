@@ -1,6 +1,6 @@
 {
 	"bm_w_stoy_919" : "AR-9",
-	"bm_w_stoy_919_desc" : "AR9DESC",
+	"bm_w_stoy_919_desc" : "The AR-9 is a 9x19mm Parabellum submachine gun designed and manufactured by Colt and based off of the M16 design.",
 	
 	"menu_l_global_value_stoy_919" : "This is an AR Pack Weapon!",
 	
