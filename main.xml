@@ -451,6 +451,8 @@
 		<!-- ICONS -->
 		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/stoy_919"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_stoy_919_ba_ar6951"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_stoy_919_md_r0635"/>
 		
 	</AddFiles>
 	
