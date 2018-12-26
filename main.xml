@@ -242,9 +242,9 @@
 	
 	<Sounds directory="assets\sounds">
 		<sound id="r0635_fire_auto"		 	 path="r0635_fire_auto.ogg" prefix="regular"/>
-		<sound id="r0635_fire_auto" 		 path="r0635_fire_auto.ogg" prefix="suppressed_a"/>
-		<sound id="r0635_fire_auto" 		 path="r0635_fire_auto.ogg" prefix="suppressed_b"/>
-		<sound id="r0635_fire_auto" 		 path="r0635_fire_auto.ogg" prefix="suppressed_c"/>
+		<sound id="r0635_fire_auto" 		 path="r0635_fire_sup.ogg" prefix="suppressed_a"/>
+		<sound id="r0635_fire_auto" 		 path="r0635_fire_sup.ogg" prefix="suppressed_b"/>
+		<sound id="r0635_fire_auto" 		 path="r0635_fire_sup.ogg" prefix="suppressed_c"/>
 		<sound id="wp_stoy_919_mag_out" 	 path="wp_stoy_919_mag_out.ogg" prefix="first"/>
 		<sound id="wp_stoy_919_mag_out" 	 path="wp_stoy_919_mag_out.ogg" prefix="third"/>
 		<sound id="wp_stoy_919_mag_in" 		 path="wp_stoy_919_mag_in.ogg" prefix="first"/>
@@ -255,8 +255,6 @@
 		<sound id="wp_stoy_919_release_bolt" path="wp_stoy_919_release_bolt.ogg" prefix="third"/> 
 		<sound id="wp_stoy_919_mag_contact"  path="wp_stoy_919_mag_contact.ogg" prefix="first"/>
 		<sound id="wp_stoy_919_mag_contact"  path="wp_stoy_919_mag_contact.ogg" prefix="third"/> 
-		<sound id="wp_stoy_919_mag_connect"  path="wp_stoy_919_mag_connect.ogg" prefix="first"/>
-		<sound id="wp_stoy_919_mag_connect"  path="wp_stoy_919_mag_connect.ogg" prefix="third"/> 
 	</Sounds>
 	
 	<AddFiles directory="assets">
