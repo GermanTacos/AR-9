@@ -92,6 +92,7 @@
 	<!-- AR6951 -->
 	
 	<WeaponMod id="wpn_fps_smg_stoy_919_ba_ar6951"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_smg_stoy_919_ar6951_pts/wpn_fps_smg_stoy_919_ba_ar6951" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats spread="2" concealment="-2"/>
 		<override>
 			<wpn_fps_smg_stoy_919_md_dummy unit="units/mods/weapons/wpn_fps_smg_stoy_919_r0635_pts/wpn_fps_smg_stoy_919_md_r0635" a_obj="a_ns_ar6951"/>
 		</override>
@@ -117,7 +118,7 @@
     </WeaponMod>
 	
 	<Weapon unlock_level="0">
-		<weapon id="stoy_919" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="6" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_919">
+		<weapon id="stoy_919" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="6" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" shell_ejection="effects/payday2/particles/weapons/shells/shell_9mm" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_919">
 			<stats damage="60" spread="17" spread_moving="16" recoil="23" concealment="22" suppression="14"/>
 			<fire_mode_data fire_rate="0.075"/>
 			<AMMO_PICKUP>
@@ -140,6 +141,8 @@
 			<animations fire="recoil" reload="reload" reload_not_empty="reload_not_empty" fire_steelsight="recoil"/>
 			
 			<adds/>
+			
+			<override/>
 			
 			<optional_types>
 				<value_node value="barrel"/>

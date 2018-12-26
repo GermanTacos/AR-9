@@ -217,6 +217,15 @@ if self.wpn_fps_ass_stoy_556 then
 	end
 	table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_m16a2")
 	table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_ar15")
+	
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_ar15  = {stats = {spread = 0,recoil = 2,concealment = -2}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_st_ar15  = {stats = {spread = 0,recoil = 1,concealment = -1}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_m16a2 = {stats = {spread = 2,recoil = 0,concealment = -2}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_st_m16a2 = {stats = {spread = 1,recoil = 0,concealment = -2}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_m607  = {stats = {spread = -1,recoil = 1,concealment = 0}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_st_m607  = {stats = {spread = 1,recoil = -1,concealment = -1}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_m4a1  = {stats = {spread = 1,recoil = -1,concealment = 0}}
+	self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_st_m4a1  = {stats = {spread = -1,recoil = 1,concealment = 0}}
 end
 -----------------------------------
 ----<A><R><9> -CAFCW- <A><R><9>----
