@@ -125,6 +125,26 @@
 					<value_node value="3"/>
 					<value_node value="9"/>
 			</AMMO_PICKUP>
+			<kick>
+				<standing>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</standing>
+				<crouching>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</crouching>
+				<steelsight>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</steelsight>
+			</kick>
 			<use_data selection_index="1"/>
 			<categories>
 				<value_node value="smg"/>
